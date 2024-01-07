@@ -1,0 +1,271 @@
+@media only screen and (max-width: 1200px) {
+  .my_projects {
+    grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
+  }
+}
+
+@media only screen and (min-width: 974px) and (max-width: 1200px) {
+  .home_intro {
+    font-size: 20px;
+    line-height: normal;
+  }
+  .my_name {
+    font-size: 30px;
+    word-spacing: normal;
+  }
+  #home {
+    padding: 50px 80px;
+  }
+
+  .btn-container > button {
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 25px;
+  }
+}
+@media only screen and (min-width: 770px) and (max-width: 974px) {
+  .logo {
+    font-size: 25px;
+    letter-spacing: normal;
+  }
+
+  .home_intro {
+    font-size: 18px;
+    line-height: normal;
+  }
+  .my_name {
+    font-size: 26px;
+    word-spacing: normal;
+  }
+  #home {
+    padding: 50px 40px;
+  }
+  .btn-container > button {
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 25px;
+  }
+  .title {
+    font-size: 25px;
+  }
+}
+
+@media only screen and (max-width: 770px) {
+  nav ul {
+    padding: 15px 0;
+    font-size: 15px;
+  }
+
+  nav ul li {
+    margin: 0 15px;
+  }
+
+  .logo {
+    font-size: 25px;
+    letter-spacing: normal;
+  }
+
+  #home {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  #home > div {
+    width: 80%;
+    margin: 0 70px;
+  }
+
+  .home_profile {
+    order: -1;
+    margin-bottom: 20px;
+  }
+
+  .home_profile img {
+    width: 50%;
+    margin: 20px auto;
+    display: block;
+  }
+
+  .home_intro {
+    order: 1;
+    font-size: 20px;
+    line-height: normal;
+    text-align: center;
+  }
+
+  .btn-container {
+    justify-content: center;
+    margin-left: 0;
+  }
+
+  .btn-container > button {
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 25px;
+  }
+
+  .my_name {
+    font-size: 30px;
+  }
+
+  .title {
+    font-size: 25px;
+  }
+
+  .contact_container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact_field form {
+    max-width: 90%;
+  }
+
+  form input,
+  form textarea,
+  .contact_btn {
+    width: 100%;
+    font-size: 16px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .logo {
+    font-size: 25px;
+    letter-spacing: normal;
+  }
+
+  nav .fas {
+    display: block;
+    font-size: 25px;
+    cursor: pointer;
+  }
+
+  nav ul {
+    background-color: #4a90ad;
+    position: fixed;
+    top: 0;
+    right: -150px;
+    flex-direction: column;
+    padding-top: 40px;
+    width: 150px;
+    height: 100vh;
+    color: white;
+    border-bottom-left-radius: 15px;
+    z-index: 2;
+    transition: right 0.3s;
+    align-items: center;
+  }
+
+  nav {
+    justify-content: space-between;
+    padding: 0 70px;
+  }
+
+  nav ul li {
+    display: block;
+    padding-left: 20px;
+    margin: 30px;
+    font-size: 17px;
+  }
+  li a {
+    color: white;
+  }
+
+  li > a:hover {
+    color: #ffffff;
+    text-decoration-line: underline;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 5px;
+  }
+
+  nav ul .fas {
+    position: absolute;
+    top: 15px;
+    right: 25px;
+  }
+
+  .title {
+    font-size: 25px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  nav {
+    justify-content: space-between;
+    padding: 0 30px;
+  }
+
+  .logo {
+    font-size: 25px;
+    letter-spacing: normal;
+  }
+  .title {
+    font-size: 25px;
+  }
+
+  .home_intro {
+    font-size: 15px;
+  }
+
+  .my_name {
+    font-size: 20px;
+  }
+
+  .btn-container > button {
+    font-size: 12px;
+  }
+  .my_projects {
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    margin: 0 21px;
+  }
+
+  .skills-container {
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    margin: 30px 21px;
+  }
+
+  .project_name {
+    font-size: 20px;
+  }
+
+  .project_description {
+    font-size: 13px;
+  }
+
+  .project_tech {
+    font-size: 13px;
+  }
+
+  .project_link {
+    padding: 7px 15px;
+    font-size: 15px;
+  }
+  .skill_name {
+    font-size: 17px;
+  }
+  .section_subtitle {
+    font-size: 20px;
+  }
+
+  .info {
+    font-size: 14px;
+    gap: 8px;
+  }
+  .info i {
+    font-size: 19px;
+  }
+
+  .social_media {
+    margin: 12px 40px;
+  }
+
+  .social_media a {
+    font-size: 34px;
+    margin-right: 19px;
+  }
+
+  .contact_field form {
+    max-width: 80%;
+  }
+}
