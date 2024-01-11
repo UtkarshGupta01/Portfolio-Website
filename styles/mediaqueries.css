@@ -23,6 +23,7 @@
     border-radius: 25px;
   }
 }
+
 @media only screen and (min-width: 770px) and (max-width: 974px) {
   .logo {
     font-size: 25px;
